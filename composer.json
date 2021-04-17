@@ -1,0 +1,29 @@
+{
+    "name": "hojin/base",
+    "description": "Hojin basic class",
+    "keywords": [
+        "hojin"
+    ],
+    "homepage": "http://php.jiny.dev",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hojinlee",
+            "email": "infohojin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 7.0"        
+    },
+    "autoload": {
+        "psr-4": {
+            "Hojin\\Base\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Helper.php"
+        ]        
+   
+    }
+}
